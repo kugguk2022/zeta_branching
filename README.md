@@ -2,6 +2,16 @@
 
 This repository explores recursive complex-domain transformations based on a zeta-inspired kernel, and includes a learned surrogate model for faster plotting and parameter sweeps.
 
+## 3D intuition
+
+The visual below gives a quick intuition for how the transformed complex response can be interpreted as a surface over the complex plane:
+
+![3D conceptual surface of zeta branching response](outputs/zeta_3d_concept_surface.svg)
+
+- Horizontal plane: input complex plane coordinates `(Re(z), Im(z))`
+- Surface height: transformed response level
+- Surface color: response magnitude intensity
+
 ## Folder layout
 
 - `scripts/`: all Python source scripts

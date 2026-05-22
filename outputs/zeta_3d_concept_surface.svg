@@ -1,0 +1,71 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="3D conceptual surface for zeta branching">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1021"/>
+      <stop offset="100%" stop-color="#1f2340"/>
+    </linearGradient>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd166" stop-opacity="0.92"/>
+      <stop offset="55%" stop-color="#06d6a0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#118ab2" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="760" fill="url(#bg)"/>
+
+  <g opacity="0.28" stroke="#8ecae6" stroke-width="1.2" fill="none">
+    <path d="M120 640 L600 360 L1080 640"/>
+    <path d="M120 560 L600 280 L1080 560"/>
+    <path d="M120 480 L600 200 L1080 480"/>
+    <path d="M120 400 L600 120 L1080 400"/>
+    <path d="M200 680 L680 400"/>
+    <path d="M320 680 L800 400"/>
+    <path d="M440 680 L920 400"/>
+    <path d="M560 680 L1040 400"/>
+  </g>
+
+  <g stroke="#caf0f8" stroke-width="2" opacity="0.65" fill="none">
+    <path d="M170 620 C280 580, 330 460, 420 470 C520 485, 590 640, 700 610 C790 585, 850 430, 950 450 C1010 462, 1060 520, 1090 560"/>
+    <path d="M150 570 C270 520, 330 410, 430 425 C530 440, 600 590, 710 560 C810 530, 870 380, 970 400 C1030 412, 1070 470, 1110 510"/>
+    <path d="M130 520 C250 470, 320 360, 440 375 C540 390, 620 540, 730 510 C840 480, 900 330, 1000 350 C1060 362, 1100 420, 1130 460"/>
+  </g>
+
+  <path filter="url(#glow)" fill="url(#surface)" opacity="0.88"
+        d="M160 600
+           C250 560, 320 430, 440 445
+           C560 462, 620 620, 740 590
+           C850 562, 915 390, 1020 410
+           C1080 422, 1130 470, 1145 500
+           L1145 575
+           C1110 560, 1060 545, 1000 540
+           C905 532, 840 665, 735 690
+           C620 715, 540 560, 430 548
+           C320 535, 245 650, 160 680 Z"/>
+
+  <g stroke="#ffb703" stroke-width="2.5" opacity="0.95" fill="none">
+    <path d="M180 645 C285 603, 355 495, 460 508 C575 523, 645 678, 760 648 C865 620, 935 460, 1035 480"/>
+    <path d="M210 610 C315 568, 385 458, 490 470 C600 484, 670 638, 785 608 C885 582, 950 430, 1045 448"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#e6f4ff">
+    <text x="72" y="92" font-size="38" font-weight="700">Zeta Branching 3D Intuition</text>
+    <text x="74" y="126" font-size="22" opacity="0.9">Height: transformed response   •   Color: magnitude intensity</text>
+
+    <text x="72" y="708" font-size="20" opacity="0.9">Im(z) axis</text>
+    <text x="1020" y="705" font-size="20" opacity="0.9">Re(z) axis</text>
+    <text x="565" y="168" font-size="20" opacity="0.9">Response amplitude</text>
+  </g>
+
+  <g stroke="#bde0fe" stroke-width="2.5">
+    <line x1="170" y1="680" x2="1045" y2="680"/>
+    <line x1="170" y1="680" x2="90" y2="505"/>
+    <line x1="600" y1="430" x2="600" y2="130"/>
+  </g>
+</svg>
